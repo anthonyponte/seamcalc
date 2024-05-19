@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SeamCalc</string>
+    <string name="altura_cierre">Altura Cierre (A)</string>
+    <string name="cero">0</string>
+    <string name="compacidad">Compacidad % (C%)</string>
+    <string name="compartir">Compartir</string>
+    <string name="compartir_texto">Espesor Cuerpo (Ec) %1$s \n
+        Espesor Tapa (Et) %2$s \n
+        Gancho Cuerpo (Gc) %3$s \n
+        Gancho Tapa (Gt) %4$s \n
+        Altura Cierre (A) %5$s \n
+        Espesor Cierre (E) %6$s \n
+        Traslape (T) %7$s \n
+        Traslape %% (T%%) %8$s \n
+        Penetración Gancho Cuerpo %% (Pgc%%) %9$s \n
+        Espacio Libre (El) %10$s \n
+        Compacidad %% (C%%) %11$s
+    </string>
+    <string name="dimensiones">Dimensiones</string>
+    <string name="ecuacion_compacidad">\\[{3Ct + 2Bt \\over St} . 100\\]</string>
+    <string name="ecuacion_espacio_libre">\\[St - (3Ct + 2Bt)\\]</string>
+    <string name="ecuacion_penetracion">\\[{(Bh - 1.1Ct) . 100 \\over Sl - 1.1(2Ct + Bt)}\\]</string>
+    <string name="ecuacion_superposicion">\\[{Ch + Bh + 1.1Ct - Sl \\over Sl - 1.1(2Ct + Bt)} . 100\\]</string>
+    <string name="ecuacion_traslape">\\[(Ch + Bh + 1.1 Ct) - Sl\\]</string>
+    <string name="espacio_libre">Espacio Libre (El)</string>
+    <string name="espesor_cierre">Espesor Cierre (E)</string>
+    <string name="espesor_cuerpo">Espesor Cuerpo (Ec)</string>
+    <string name="espesor_tapa">Espesor Tapa (Et)</string>
+    <string name="gancho_cuerpo">Gancho Cuerpo (Gc)</string>
+    <string name="gancho_tapa">Gancho Tapa (Gt)</string>
+    <string name="informacion">Informacion</string>
+    <string name="limpiar">Limpiar</string>
+    <string name="medidas">Medidas</string>
+    <string name="penetracion">Penetración Gancho Cuerpo % (Pgc%)</string>
+    <string name="superposicion">Traslape % (T%)</string>
+    <string name="traslape">Traslape (T)</string>
+</resources>

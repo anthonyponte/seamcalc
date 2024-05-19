@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/root_padding">
+
+        <TextView
+            style="?textAppearanceTitleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dimensiones" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.Material3.TextInputLayout.FilledBox.Dense"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_between_element">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etEspesorCuerpo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/espesor_cuerpo"
+                android:inputType="numberDecimal" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.Material3.TextInputLayout.FilledBox.Dense"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_between_element">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etEspesorTapa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/espesor_tapa"
+                android:inputType="numberDecimal" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.Material3.TextInputLayout.FilledBox.Dense"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_between_element">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etGanchoCuerpo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/gancho_cuerpo"
+                android:inputType="numberDecimal" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.Material3.TextInputLayout.FilledBox.Dense"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_between_element">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etGanchoTapa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/gancho_tapa"
+                android:inputType="numberDecimal" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.Material3.TextInputLayout.FilledBox.Dense"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_between_element">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etAlturaCierre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/altura_cierre"
+                android:inputType="numberDecimal" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.Material3.TextInputLayout.FilledBox.Dense"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_between_element">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etEspesorCierre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/espesor_cierre"
+                android:inputType="numberDecimal" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/btnLimpiar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_between_element"
+            android:enabled="false"
+            android:text="@string/limpiar"
+            app:icon="@drawable/ic_baseline_cleaning_services_24"
+            app:iconGravity="textStart" />
+
+        <TextView
+            style="?textAppearanceTitleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="@dimen/margin_between_section"
+            android:text="@string/medidas" />
+
+        <TextView
+            style="?textAppearanceLabelMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="@dimen/margin_between_element"
+            android:text="@string/traslape" />
+
+        <TextView
+            android:id="@+id/tvTraslape"
+            style="?textAppearanceBodyLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:text="@string/cero" />
+
+        <TextView
+            style="?textAppearanceLabelMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="@dimen/margin_between_element"
+            android:text="@string/superposicion" />
+
+        <TextView
+            android:id="@+id/tvSuperposicion"
+            style="?textAppearanceBodyLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:text="@string/cero" />
+
+        <TextView
+            style="?textAppearanceLabelMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="@dimen/margin_between_element"
+            android:text="@string/penetracion" />
+
+        <TextView
+            android:id="@+id/tvPenetracion"
+            style="?textAppearanceBodyLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:text="@string/cero" />
+
+        <TextView
+            style="?textAppearanceLabelMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="@dimen/margin_between_element"
+            android:text="@string/espacio_libre" />
+
+        <TextView
+            android:id="@+id/tvEspacioLibre"
+            style="?textAppearanceBodyLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:text="@string/cero" />
+
+        <TextView
+            style="?textAppearanceLabelMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="@dimen/margin_between_element"
+            android:text="@string/compacidad" />
+
+        <TextView
+            android:id="@+id/tvCompacidad"
+            style="?textAppearanceBodyLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:text="@string/cero" />
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

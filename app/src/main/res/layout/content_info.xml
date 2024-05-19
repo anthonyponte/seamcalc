@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/root_padding">
+
+        <TextView
+            style="?textAppearanceTitleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/medidas" />
+
+        <TextView
+            style="?textAppearanceTitleMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_between_element"
+            android:text="@string/traslape" />
+
+        <com.qdot.mathrendererlib.MathRenderView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:text="@string/ecuacion_traslape" />
+
+        <TextView
+            style="?textAppearanceTitleMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_between_element"
+            android:text="@string/superposicion" />
+
+        <com.qdot.mathrendererlib.MathRenderView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:text="@string/ecuacion_superposicion" />
+
+        <TextView
+            style="?textAppearanceTitleMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_between_element"
+            android:text="@string/penetracion" />
+
+        <com.qdot.mathrendererlib.MathRenderView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:text="@string/ecuacion_penetracion" />
+
+        <TextView
+            style="?textAppearanceTitleMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_between_element"
+            android:text="@string/espacio_libre" />
+
+        <com.qdot.mathrendererlib.MathRenderView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:text="@string/ecuacion_espacio_libre" />
+
+        <TextView
+            style="?textAppearanceTitleMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_between_element"
+            android:text="@string/compacidad" />
+
+        <com.qdot.mathrendererlib.MathRenderView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:text="@string/ecuacion_compacidad" />
+
+        <TextView
+            style="?textAppearanceTitleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="@dimen/margin_between_section"
+            android:text="@string/dimensiones" />
+
+        <TextView
+            style="?textAppearanceTitleMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="@dimen/margin_between_element"
+            android:text="@string/espesor_cuerpo" />
+
+        <TextView
+            style="?textAppearanceTitleMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="@dimen/margin_between_element"
+            android:text="@string/espesor_tapa" />
+
+        <TextView
+            style="?textAppearanceTitleMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="@dimen/margin_between_element"
+            android:text="@string/gancho_cuerpo" />
+
+        <TextView
+            style="?textAppearanceTitleMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="@dimen/margin_between_element"
+            android:text="@string/gancho_tapa" />
+
+        <TextView
+            style="?textAppearanceTitleMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="@dimen/margin_between_element"
+            android:text="@string/altura_cierre" />
+
+        <TextView
+            style="?textAppearanceTitleMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="@dimen/margin_between_element"
+            android:text="@string/espesor_cierre" />
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SeamCalc</string>
+    <string name="altura_cierre">Seam Length (Sl)</string>
+    <string name="cero">0</string>
+    <string name="compacidad">Compactness % (C%)</string>
+    <string name="compartir">Share</string>
+    <string name="compartir_texto">Body Thickness (Bt) %1$s \n
+        Cover Thickness(Ct) %2$s \n
+        Body Hook (Bh) %3$s \n
+        Cover Hook (Ch) %4$s \n
+        Seam Length (Sl) %5$s \n
+        Seam Thickness (St) %6$s \n
+        Overlap (O) %7$s \n
+        Overlap %% (O%%) %8$s \n
+        Body Hook Butting %% (Bhb%%) %9$s \n
+        Free Space (Fe) %10$s \n
+        Compactness %% (C%%) %11$s
+    </string>
+    <string name="dimensiones">Dimensions</string>
+    <string name="ecuacion_compacidad">\\[{3Ct + 2Bt \\over St} . 100\\]</string>
+    <string name="ecuacion_espacio_libre">\\[St - (3Ct + 2Bt)\\]</string>
+    <string name="ecuacion_penetracion">\\[{(Bh - 1.1Ct) . 100 \\over Sl - 1.1(2Ct + Bt)}\\]</string>
+    <string name="ecuacion_superposicion">\\[{Ch + Bh + 1.1Ct - Sl \\over Sl - 1.1(2Ct + Bt)} . 100\\]</string>
+    <string name="ecuacion_traslape">\\[(Ch + Bh + 1.1 Ct) - Sl\\]</string>
+    <string name="espacio_libre">Free Space (Fe)</string>
+    <string name="espesor_cierre">Seam Thickness (St)</string>
+    <string name="espesor_cuerpo">Body Thickness (Bt)</string>
+    <string name="espesor_tapa">Cover Thickness(Ct)</string>
+    <string name="gancho_cuerpo">Body Hook (Bh)</string>
+    <string name="gancho_tapa">Cover Hook (Ch)</string>
+    <string name="informacion">Information</string>
+    <string name="limpiar">Clear</string>
+    <string name="medidas">Measures</string>
+    <string name="penetracion">Body Hook Butting % (Bhb%)</string>
+    <string name="superposicion">Overlap % (O%)</string>
+    <string name="traslape">Overlap (O)</string>
+</resources>

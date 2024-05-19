@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="root_padding">32dp</dimen>
+    <dimen name="margin_between_element">16dp</dimen>
+    <dimen name="margin_between_section">32dp</dimen>
+</resources>
